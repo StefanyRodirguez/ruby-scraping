@@ -1,6 +1,8 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    Ascii85 (1.0.2)
+    afm (0.2.2)
     bond (0.5.1)
     czmq-ffi-gen (0.13.0)
       ffi (~> 1.9.10)
@@ -8,6 +10,7 @@ GEM
       czmq-ffi-gen (~> 0.13.0)
     data_uri (0.1.0)
     ffi (1.9.18)
+    hashery (2.1.2)
     httparty (0.15.6)
       multi_xml (>= 0.5.2)
     iruby (0.3)
@@ -21,7 +24,15 @@ GEM
     multi_xml (0.6.0)
     nokogiri (1.8.1)
       mini_portile2 (~> 2.3.0)
+    pdf-reader (2.0.0)
+      Ascii85 (~> 1.0.0)
+      afm (~> 0.2.1)
+      hashery (~> 2.0)
+      ruby-rc4
+      ttfunk
     rbczmq (1.7.9)
+    ruby-rc4 (0.1.5)
+    ttfunk (1.5.1)
 
 PLATFORMS
   ruby
@@ -31,6 +42,7 @@ DEPENDENCIES
   httparty
   iruby
   nokogiri
+  pdf-reader
   rbczmq
 
 RUBY VERSION
