@@ -32,6 +32,7 @@ GEM
       ttfunk
     rbczmq (1.7.9)
     ruby-rc4 (0.1.5)
+    rubyzip (1.2.1)
     ttfunk (1.5.1)
 
 PLATFORMS
@@ -44,6 +45,7 @@ DEPENDENCIES
   nokogiri
   pdf-reader
   rbczmq
+  rubyzip
 
 RUBY VERSION
    ruby 2.5.0p0

@@ -5,6 +5,7 @@ ruby '2.5.0'
 gem 'nokogiri'
 gem 'httparty'
 gem 'pdf-reader'
+gem 'rubyzip'
 
 # Required to run Ruby kernel in Jupyter Notebook
 gem 'cztop'
